@@ -1,7 +1,8 @@
-import { WhiteboardProvider } from "./providers";
-import { Whiteboard } from "./Whiteboard";
+import { Whiteboard } from "../../Whiteboard";
 
-export const Page: React.FC = () => {
+import { WhiteboardProvider } from "./providers";
+
+export const WithTldraw: React.FC = () => {
   return (
     <WhiteboardProvider>
       <Whiteboard />

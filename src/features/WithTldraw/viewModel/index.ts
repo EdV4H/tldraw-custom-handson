@@ -1,6 +1,6 @@
 import { TDToolType } from "@tldraw/tldraw";
 
-import { useWhiteboard } from "@/hooks";
+import { useWhiteboard } from "../hooks";
 
 export const useViewModel = () => {
   const whiteboard = useWhiteboard();

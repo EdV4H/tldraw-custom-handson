@@ -1,10 +1,10 @@
 import "./App.css";
-import { Page } from "./page";
+import { WithTldraw } from "./features/WithTldraw";
 
 function App() {
   return (
     <div className="App">
-      <Page />
+      <WithTldraw />
     </div>
   );
 }
