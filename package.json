@@ -10,14 +10,20 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "@tldraw/core": "^1.23.0",
+    "@tldraw/tldraw": "^1.9.3",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/node": "^18.15.1",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
     "@vitejs/plugin-react": "^3.1.0",

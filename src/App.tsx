@@ -1,9 +1,10 @@
 import "./App.css";
+import { Page } from "./page";
 
 function App() {
   return (
     <div className="App">
-      <p>Hello Vite + React!</p>
+      <Page />
     </div>
   );
 }
