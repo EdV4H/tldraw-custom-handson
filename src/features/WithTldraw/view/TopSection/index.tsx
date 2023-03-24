@@ -1,6 +1,6 @@
 import { Stack } from "@mui/material";
 
-import { TitleBar } from "./TitleBar";
+import { TitleBar } from "@/components";
 
 type Props = {
   title: string;

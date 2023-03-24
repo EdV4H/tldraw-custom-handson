@@ -1,7 +1,7 @@
 import { Stack } from "@mui/material";
 import { TDToolType } from "@tldraw/tldraw";
 
-import { WhiteboardTool } from "./WhiteboardTool";
+import { WhiteboardTool } from "@/components";
 
 type Props = {
   activeTool: TDToolType;
