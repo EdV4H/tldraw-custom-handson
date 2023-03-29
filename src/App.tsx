@@ -1,5 +1,5 @@
 import "./App.css";
-import { WithTldraw } from "./features/WithTldraw";
+import { WithTldraw } from "./page";
 
 function App() {
   return (

@@ -1,11 +1,13 @@
-import { Whiteboard } from "../../Whiteboard";
+import { Template } from "./view";
+import { useViewModel } from "./viewModel";
 
-import { WhiteboardProvider } from "./providers";
+export const Whiteboard: React.FC = () => {
+  const { states, handlers } = useViewModel();
 
-export const WithTldraw: React.FC = () => {
   return (
-    <WhiteboardProvider>
-      <Whiteboard />
-    </WhiteboardProvider>
+    <Template
+      activeTool={states.activeTool}
+      onSelectTool={handlers.handleSelectTool}
+    />
   );
 };
